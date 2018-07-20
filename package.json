@@ -1,0 +1,24 @@
+{
+  "name": "easy-dict",
+  "version": "1.0.0",
+  "description": "a easy-project",
+  "main": "index.js",
+  "author": "qize",
+  "keywords": [
+    "easy",
+    "generator",
+    "tpl"
+  ],
+  "license": "MIT",
+  "bin": {
+    "easy": "bin/index.js"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.15.1",
+    "execa": "^0.10.0",
+    "inquirer": "^5.2.0",
+    "progress": "^2.0.0"
+  }
+}
