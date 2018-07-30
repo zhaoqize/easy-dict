@@ -9,8 +9,20 @@ program
 program
   .command('dict <word>')
   .description('A Tool For Translaion')
-  .action((word) => {
-      require('../lib/main.js')(word);
+  .option('-s, --source <name>', 'default youdao, where is the source for dict')
+  .action((word, args) => {
+      require('../lib/main.js')(word, cleanArgs(args));
   });
+
+function cleanArgs (cmd) {
+  const args = {}
+  cmd.options.forEach(o => {
+    const key = o.long.replace(/^--/, '')
+    if (typeof cmd[key] !== 'function') {
+      args[key] = cmd[key]
+    }
+  })
+  return args
+}
 
 program.parse(process.argv);

@@ -19,6 +19,11 @@
     "commander": "^2.15.1",
     "execa": "^0.10.0",
     "inquirer": "^5.2.0",
-    "progress": "^2.0.0"
+    "progress": "^2.0.0",
+    "puppeteer": "^1.6.1"
+  },
+  "devDependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5"
   }
 }
