@@ -1,6 +1,6 @@
 {
   "name": "easy-dict",
-  "version": "1.0.0",
+  "version": "1.5.1",
   "description": "a easy-project",
   "main": "index.js",
   "author": "qize",
@@ -9,6 +9,13 @@
     "generator",
     "tpl"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoqize/easy-dict.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhaoqize/easy-dict/issues"
+  },
   "license": "MIT",
   "bin": {
     "easy": "bin/index.js"
