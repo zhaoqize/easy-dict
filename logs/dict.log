@@ -1,0 +1,46 @@
+[2018-08-01T16:33:59.616] [ERROR] cheese - TypeError: Cannot read property 'focus' of undefined
+    at operationBoxControl (/study/easy-dict/lib/frame/operationBox.js:32:11)
+    at operationBox (/study/easy-dict/lib/frame/operationBox.js:28:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:24:3)
+    at dict (/study/easy-dict/lib/main.js:42:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T16:34:04.181] [ERROR] cheese - TypeError: Cannot read property 'focus' of undefined
+    at operationBoxControl (/study/easy-dict/lib/frame/operationBox.js:32:11)
+    at operationBox (/study/easy-dict/lib/frame/operationBox.js:28:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:24:3)
+    at dict (/study/easy-dict/lib/main.js:42:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T16:35:32.151] [ERROR] cheese - TypeError: Cannot read property 'focus' of undefined
+    at operationBoxControl (/study/easy-dict/lib/frame/operationBox.js:33:11)
+    at operationBox (/study/easy-dict/lib/frame/operationBox.js:29:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:24:3)
+    at dict (/study/easy-dict/lib/main.js:42:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T16:35:50.980] [ERROR] cheese - TypeError: Cannot read property 'focus' of undefined
+    at operationBoxControl (/study/easy-dict/lib/frame/operationBox.js:33:11)
+    at operationBox (/study/easy-dict/lib/frame/operationBox.js:29:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:25:3)
+    at dict (/study/easy-dict/lib/main.js:42:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T16:38:29.848] [ERROR] cheese - ReferenceError: context is not defined
+    at searchBtn (/study/easy-dict/lib/frame/searchBtn.js:33:20)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:25:3)
+    at dict (/study/easy-dict/lib/main.js:42:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T17:44:14.155] [ERROR] cheese - ReferenceError: context is not defined
+    at searchBtn (/study/easy-dict/lib/frame/searchBtn.js:39:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:25:3)
+    at dict (/study/easy-dict/lib/main.js:28:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-01T17:44:51.717] [ERROR] cheese - ReferenceError: context is not defined
+    at searchBtn (/study/easy-dict/lib/frame/searchBtn.js:39:3)
+    at generateFrame (/study/easy-dict/lib/frame/index.js:25:3)
+    at dict (/study/easy-dict/lib/main.js:28:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

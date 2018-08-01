@@ -26,6 +26,7 @@
     "commander": "^2.15.1",
     "execa": "^0.10.0",
     "inquirer": "^5.2.0",
+    "log4js": "^3.0.3",
     "progress": "^2.0.0",
     "puppeteer": "^1.6.1"
   },
