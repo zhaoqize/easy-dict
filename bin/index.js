@@ -9,7 +9,7 @@ program
 program
   .command('dict <word>')
   .description('A Tool For Translaion')
-  .option('-s, --source <name>', 'default youdao, where is the source for dict')
+  .option('-s, --source <name>', 'default google, where is the source for dict')
   .action((word, args) => {
       require('../lib/main.js')(word, cleanArgs(args));
   });

@@ -1,4 +1,5 @@
-[![NPM version][npm-image]][npm-url] [![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-dict.svg)](https://github.com/zhaoqize/easy-rollback/blob/master/LICENSE)
+[![npm](https://img.shields.io/npm/v/easy-dict.svg?style=flat)](https://github.com/zhaoqize/easy-dict)
+[![GitHub license](https://img.shields.io/github/license/zhaoqize/easy-dict.svg)](https://github.com/zhaoqize/easy-dict/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)]()
 # easy-dict
 easy-dict 是一个命令行词典
@@ -24,20 +25,28 @@ easy dict <word> -s youdao
 easy dict question
 ```
 
+<img src="./lib/img/1.png" width="400">
+
 4、翻译英文句子
 ```js
 easy dict 'question is a question'
 ```
+
+<img src="./lib/img/2.png" width="400">
 
 5、翻译中文单词
 ```js
 easy dict 中国
 ```
 
+<img src="./lib/img/3.png" width="400">
+
 6、翻译中文句子
 ```js
 easy dict '我是中国人'
 ```
+
+<img src="./lib/img/4.png" width="400">
 
 执行 `easy dict -h`
 ```js
