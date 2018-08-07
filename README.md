@@ -32,14 +32,14 @@ npm install -g easy-dict
 - 更多内容区：显示词汇的其他解释
 
 #### 在通过命令行操作
-1、默认使用 `google` 翻译
+1、默认使用 `youdao` 翻译
 ```js
 easy dict <word>
 ```
 
-2、使用 `youdao` 词典
+2、使用 `google` 词典
 ```js
-easy dict <word> -s youdao
+easy dict <word> -s google
 ```
 
 3、翻译英文单词
